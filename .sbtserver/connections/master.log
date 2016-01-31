@@ -1,0 +1,140 @@
+New log file opened at Sun Jan 31 16:42:15 KST 2016 by 2185@ImHoonkiui-MacBook-Pro.local
+Taking next connection to: 51612
+New client attempting to connect on port: 51613-51612
+  Address = /192.168.11.3:51612
+This client on port 51613 has uuid 8a3d788e-1f10-4fce-9be4-5b2c0549b48e configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-8a3d788e-1f10-4fce-9be4-5b2c0549b48e
+Taking next connection to: 51612
+New client attempting to connect on port: 51614-51612
+  Address = /192.168.11.3:51612
+Handshake exception on socket: 51614
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 51612
+New client attempting to connect on port: 51615-51612
+  Address = /192.168.11.3:51612
+This client on port 51615 has uuid f1d0f274-bc46-4fe3-a48f-0459fd327792 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-8a3d788e-1f10-4fce-9be4-5b2c0549b48e, activator-f1d0f274-bc46-4fe3-a48f-0459fd327792
+Taking next connection to: 51612
+New client attempting to connect on port: 51616-51612
+  Address = /192.168.11.3:51612
+Handshake exception on socket: 51616
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 51612
+New client attempting to connect on port: 51617-51612
+  Address = /192.168.11.3:51612
+This client on port 51617 has uuid f5a49ba8-7b21-4966-b797-408c45765fde configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-8a3d788e-1f10-4fce-9be4-5b2c0549b48e, activator-f1d0f274-bc46-4fe3-a48f-0459fd327792, activator-f5a49ba8-7b21-4966-b797-408c45765fde
+Taking next connection to: 51612
+New client attempting to connect on port: 51632-51612
+  Address = /192.168.11.3:51612
+Handshake exception on socket: 51632
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 51612
+New client attempting to connect on port: 51633-51612
+  Address = /192.168.11.3:51612
+This client on port 51633 has uuid 3a7259f0-dd61-4d1f-9321-5c856b319bda configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-f5a49ba8-7b21-4966-b797-408c45765fde, play-fork-run-3a7259f0-dd61-4d1f-9321-5c856b319bda
+Taking next connection to: 51612
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51612
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51612
+New client attempting to connect on port: 51643-51612
+  Address = /192.168.11.3:51612
+Handshake exception on socket: 51643
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 51612
+New client attempting to connect on port: 51644-51612
+  Address = /192.168.11.3:51612
+This client on port 51644 has uuid 1c9d30ba-b46d-47f8-a03a-3c1ca684d667 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-f5a49ba8-7b21-4966-b797-408c45765fde, play-fork-run-1c9d30ba-b46d-47f8-a03a-3c1ca684d667
+Taking next connection to: 51612
+New client attempting to connect on port: 51647-51612
+  Address = /192.168.11.3:51612
+Handshake exception on socket: 51647
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 51612
+New client attempting to connect on port: 51648-51612
+  Address = /192.168.11.3:51612
+This client on port 51648 has uuid 6f0837d7-3568-41b7-a97d-c4d15799a6e8 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-f5a49ba8-7b21-4966-b797-408c45765fde, play-fork-run-6f0837d7-3568-41b7-a97d-c4d15799a6e8
+Taking next connection to: 51612
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51612
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51612
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51612
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51612
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51612
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51612
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51612
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51612
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51612
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51612
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51612
